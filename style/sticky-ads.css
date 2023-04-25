@@ -1,0 +1,36 @@
+#_ulixAds {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    #_ulixAds {
+        display: block;
+    }
+
+}
+#_ulixAds {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    /* bottom: 0px; */
+    left: 0px;
+    z-index: 2147483647;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: 0 -3px 3px rgba(0, 0, 0, .2) !important;
+}
+#_closeAdsWdgt {
+    position: absolute;
+    top: -20px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #dedede;
+    right: 0;
+    height: 24px;
+    margin-top: 8px;
+    width: 19px;
+    font-size: 20px;
+    border-radius: 5px 0px 0px 5px;
+
+}
