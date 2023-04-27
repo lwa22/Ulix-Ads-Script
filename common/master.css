@@ -1,0 +1,160 @@
+/* INTER SCOLLER ADS STYLE START*/
+div#_InterScollerAds {
+  border: 1px solid #00000026;
+}
+._InterScollerAds-ad-container {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+._InterScollerAds-ad {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  clip: rect(0, auto, auto, 0) !important;
+}
+._InterScollerAds-ad > iframe {
+  position: fixed;
+  top: 130px;
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 0 !important;
+}
+._InterScollerAds_ad-label {
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-size: 11px;
+  font-family: roboto !important;
+}
+/* INTER SCOLLER ADS STYLE END*/
+
+/* STICKY ADS STYLE START*/
+#_ulixAds {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    #_ulixAds {
+        display: block;
+    }
+
+}
+#_ulixAds {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    /* bottom: 0px; */
+    left: 0px;
+    z-index: 2147483647;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: 0 -3px 3px rgba(0, 0, 0, .2) !important;
+}
+#_closeAdsWdgt {
+    position: absolute;
+    top: -20px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #dedede;
+    right: 0;
+    height: 24px;
+    margin-top: 8px;
+    width: 19px;
+    font-size: 20px;
+    border-radius: 5px 0px 0px 5px;
+
+}
+/* STICKY ADS STYLE END*/
+
+/* SHARE BUTTON STYLE START*/
+.nav {
+  width: 100%;
+  height: 41px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: flex;
+  overflow-x: auto;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link:hover {
+  background-color: #25b7ed;
+}
+
+.nav__link--active {
+  color: #302222;
+}
+
+.nav__icon {
+  font-size: 18px;
+}
+
+#_ulxShareBtn {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  float: none;
+  overflow: hidden;
+  display: scroll;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  -webkit-transform: translateZ(0);
+}
+
+.nav__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.UlxShrbtn {
+  text-align: center;
+  display: block;
+  max-width: 728px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+}
+
+@media screen and (min-width:1025px) {
+  .nav {
+      border-radius: 20px 20px 0px 0px;
+  }
+}
+/* SHARE BUTTON STYLE END*/
