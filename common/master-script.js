@@ -5,7 +5,7 @@ var link = document.createElement('link');
 // set the attributes for link element
 link.rel = 'stylesheet';
 link.type = 'text/css';
-link.href = '/common/master.css';
+link.href = 'https://cdn.jsdelivr.net/gh/lwa22/Ulix-Ads-Script@main/common/master.css';
 
 // Append link element to HTML head
 shrbtnheader.appendChild(link);
