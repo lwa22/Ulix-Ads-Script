@@ -36,11 +36,11 @@ div#_InterScollerAds {
 /* INTER SCOLLER ADS STYLE END*/
 
 /* STICKY ADS STYLE START*/
-#_ulixAds {
+div#_ulixAds {
     display: none;
 }
 @media screen and (max-width: 768px) {
-    #_ulixAds {
+    div#_ulixAds {
         display: block;
     }
 

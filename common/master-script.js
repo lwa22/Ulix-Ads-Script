@@ -1,3 +1,5 @@
+console.log("Master Js Added");
+
 // Get HTML head element
 let shrbtnheader = document.getElementsByTagName('HEAD')[0];
 // Create new link Element
@@ -7,8 +9,10 @@ link.rel = 'stylesheet';
 link.type = 'text/css';
 link.href = 'https://cdn.jsdelivr.net/gh/lwa22/Ulix-Ads-Script@main/common/master.css';
 
+
 // Append link element to HTML head
 shrbtnheader.appendChild(link);
+console.log("Master Css Painted");
 
 //Inter Scroller Ads
 document.addEventListener("DOMContentLoaded", function () {
@@ -142,4 +146,24 @@ let buttonnxt = document.createElement("span");
 
 buttonnxt.classList.add("nav__text");
 nxtbtnlink.appendChild(buttonnxt);
-buttonnxt.innerHTML="Next ➤";
+buttonnxt.innerHTML="Share »";
+
+
+  const btn = document.querySelector('.nav__text');
+  const shareData = {
+    title: content_title,
+    text: '',
+    url: content_url
+  }
+
+  // Share must be triggered by "user activation"
+  btn.addEventListener('click', async () => {
+		   try {
+      await navigator.share(shareData)
+    } 
+    catch(err) {
+		navigator.clipboard.writeText(shareData.url);
+      console.log("Share Not Shared");
+    }
+	
+  });
